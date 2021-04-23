@@ -54,7 +54,7 @@ Machines within the network can only be accessed by DVWA Docker Container.
  
 Machines allowed to access my ELK server.
 - Personal Machine 
-108.185.45.124 through  
+108.185.45.124   
 - Jummp-Box-Provioner 
 52.191.131.161  
 

@@ -53,8 +53,11 @@ Only the Jump-Box-Provisioner machine can accept connections from the Internet. 
 Machines within the network can only be accessed by DVWA Docker Container.
  
 Machines allowed to access my ELK server.
-- Personal machine 108.185.45.124 through  
-- Jummp-Box-Provioner 52.191.131.161  
+- Personal Machine 
+108.185.45.124 through  
+- Jummp-Box-Provioner 
+52.191.131.161  
+
 This was all made possible through Peering Connection Red-to- Elk and Elk-to-Red 
 
 A summary of the access policies in place can be found in the table below.

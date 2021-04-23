@@ -36,12 +36,14 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name      | Function | IP Address | Operating System |
+|-----------|----------|------------|------------------|
+| Jump Box  | Gateway  | 10.0.0.4   | Linux            |
+| WebVM1    | Webserver| 10.0.0.5   | Linux            |
+| WebVM2    | Webserver| 10.0.0.6   | Linux            |
+| WebVM3    | Webserver| 10.0.0.7   | Linux            |               
+| ELK-Server| Webserver| 10.1.0.4   | Linux            |
+
 
 ### Access Policies
 
@@ -64,11 +66,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 | Publicly Accessible | Allowed IP Addresses     |
 |----------------------|---------------------|--------------------------|
-| Jump-Box-Provisioner | Yes                 | 10.0.0.4  108.185.45.124 |
-| WebVM1               | No                  | 10.0.0.4                 |
-| WebVM2               | No                  | 10.0.0.4                 |
-| WebVM3               | No                  | 10.0.0.4                 |
-| ELK-Server           | No                  | 10.0.0.4  108.185.45.124 |
+| Jump-Box-Provisioner | No                  | 108.185.45.124           |
+| WebVM1               | yes                 | Any                      |
+| WebVM2               | yes                 | Any                      |
+| WebVM3               | yes                 | Any                      |
+| ELK-Server           | No                  | 108.185.45.124           |
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...

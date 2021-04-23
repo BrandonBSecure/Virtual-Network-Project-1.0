@@ -5,7 +5,7 @@ Virtual Network Diagram and Description.
 
 The files in this repository were used to configure the network depicted below.
 
-![Network Diagram](https://github.com/BrandonBSecure/Virtual-Network-Project-1.0/issues/1#issue-865889250)
+![Network Diagram](https://user-images.githubusercontent.com/79088957/115844456-b03b4280-a3d4-11eb-84ed-55eb0579a77f.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 

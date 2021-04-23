@@ -1,16 +1,13 @@
 # Virtual-Network-Project-1.0
 Virtual Network Diagram and Description.
 
-# Virtual-Networking-Project-1
-
-
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-!(images/issues/2#issue-864627694)
+!(Images/issues/2#issue-864627694)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._
 
@@ -25,16 +22,17 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+The main purpose of this network is to expose a load-balanced and monitored the instance of DVWA(D*mn Vulnerable Web Application).
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+Load balancing ensures that the application will be highly reliable, in addition to restricting unwanted traffic to the network.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+- _TODO: Load Balancers protect the availability portion the Triad by using redundancy to maintain access to the servers. What is the advantage of a jump box?_
+
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system resources.
 
 
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+- _TODO: What does Filebeat watch for? Monitors log files or locations on your server.
+- _TODO: What does Metricbeat record? Collects metrics from the system and services running on the system.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -51,7 +49,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+- todo
 
 Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
@@ -83,6 +81,7 @@ This ELK server is configured to monitor the following machines:
 - WebVM1 10.0.0.5
 - WebVM2 10.0.0.6
 - WebVM3 10.0.0.7
+
 We have installed the following Beat on these machines:
 - Filebeat
 

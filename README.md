@@ -26,8 +26,7 @@ The main purpose of this network is to expose a load-balanced and monitored the 
 
 Load balancing ensures that the application will be highly reliable, in addition to restricting unwanted traffic to the network.
 
-- Load Balancers protect the availability portion the CIA Triad by using redundancy to maintain access to the servers. 
-The Jump-Box-Provisioner allows data to flow from one discrete network to another.
+- Load Balancers protect the availability portion the CIA Triad by using redundancy to maintain access to the servers.                                           The Jump-Box-Provisioner allows data to flow from one discrete network to another.
 
 Integrating an ELK server will allow users to easily monitor the vulnerable VMs for changes to the log files and system resources.
 

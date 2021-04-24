@@ -113,4 +113,4 @@ SSH into the control node and follow the steps below:
 - Update the filebeat-config.yaml file to include ELK-Server private IP on lines 1106 and 1806.
 - Run the playbook 
 - Navigate to the Kibana GUI by entering the ELK-Server Public IP into web browser. 
-- Observe Kibana welcome screen to verify installation workeded as expected.
+- Observe Kibana welcome screen to verify installation has worked as expected.

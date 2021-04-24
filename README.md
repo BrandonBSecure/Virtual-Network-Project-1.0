@@ -78,9 +78,13 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Ansible allows quick and easy deployment without repetitious manual configuration. This minimizes if not completely eliminates human error.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Install docker.io
+- Install Python3
+- Install Docker python module
+- Configure VM to use more memory
+- Download and launch a "docker elk" container
+- Enable service docker on boot
+
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -103,6 +107,6 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the filebeat-playbook.yamlfile to /etc/ansible/????.
+- Copy the filebeat-playbook.yaml file to /etc/ansible/????.
 - Update the filebeat-config.yaml file to include ELK-Server private IP on lines 1106 and 1806.
 - Run the playbook, navigate to Kibana GUI by entering the ELK-Server Public IP into web browser to verify the installation executed as expected.

@@ -109,6 +109,8 @@ This Beat allows us to monitor and collect the following information from each m
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the filebeat-playbook.yaml file to /etc/ansible/files.
+- Copy the filebeat-playbook.yaml file to /etc/ansible/files directory.
 - Update the filebeat-config.yaml file to include ELK-Server private IP on lines 1106 and 1806.
-- Run the playbook, navigate to Kibana GUI by entering the ELK-Server Public IP into web browser to verify the installation executed as expected.
+- Run the playbook 
+- Navigate to the Kibana GUI by entering the ELK-Server Public IP into web browser. 
+- Observe Kibana welcome screen to verify installation workeded as expected.

@@ -75,7 +75,7 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
 
-- Ansible allows quick and easy deployment without repetitious manual configuration. This minimizes if not completely eliminating human error.
+- Ansible allows quick and easy deployment without repetitious manual configuration. This minimizes if not completely eliminates human error.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
@@ -103,13 +103,6 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
-
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+- Copy the filebeat-playbook.yamlfile to /etc/ansible/????.
+- Update the filebeat-config.yaml file to include ELK-Server private IP on lines 1106 and 1806.
+- Run the playbook, navigate to Kibana GUI by entering the ELK-Server Public IP into web browser to verify the installation executed as expected.

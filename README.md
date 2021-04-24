@@ -84,7 +84,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-!["docker ps" Screenshot](https://github.com/BrandonBSecure/Virtual-Network-Project-1.0/blob/main/Docker%20PS%20Screenshot.png)
+![ELK "docker ps" Screenshot](https://github.com/BrandonBSecure/Virtual-Network-Project-1.0/blob/main/ELK%20%22docker%20ps%22.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:

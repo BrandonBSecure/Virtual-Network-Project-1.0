@@ -31,7 +31,6 @@ Load balancing ensures that the application will be highly reliable, in addition
 Integrating an ELK server will allow users to easily monitor the vulnerable VMs for changes to the log files and system resources.
 
 - Filebeat monitors log files or locations on your server.
-- Metricbeat collects metrics from the system and services running on the system.
 
 The configuration details of each machine may be found below.
 
@@ -70,6 +69,7 @@ A summary of the access policies in place can be found in the table below.
 | WebVM2               | yes                 | Any                      |
 | WebVM3               | yes                 | Any                      |
 | ELK-Server           | No                  | 108.185.45.124           |
+
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
@@ -99,9 +99,11 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beat on these machines:
 - Filebeat
 
-These Beats allow us to collect the following information from each machine:
+This Beat allows us to monitor and collect the following information from each machine:
 
-- Filebeat monitors the log files or locations that you specify, collects log events, and forwards them to Elasticsearch portion of the E.L.K. Stack.
+- Log file status
+- Specified Log locations
+- Forwarded log events to Elasticsearch portion of the E.L.K. Stack.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 

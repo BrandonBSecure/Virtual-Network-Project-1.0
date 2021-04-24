@@ -35,12 +35,12 @@ Integrating an ELK server will allow users to easily monitor the vulnerable VMs 
 The configuration details of each machine may be found below.
 
 | Name      | Function | IP Address | Operating System |
-|-----------|----------|------------|------------------|
-| Jump Box  | Gateway  | 10.0.0.4   | Linux            |
-| WebVM1    | Webserver| 10.0.0.5   | Linux            |
-| WebVM2    | Webserver| 10.0.0.6   | Linux            |
-| WebVM3    | Webserver| 10.0.0.7   | Linux            |               
-| ELK-Server| Webserver| 10.1.0.4   | Linux            |
+|---------------------|----------|------------|------|
+| Jump-Box-Provisioner| Gateway  | 10.0.0.4   | Linux|
+| WebVM1              | Webserver| 10.0.0.5   | Linux|
+| WebVM2              | Webserver| 10.0.0.6   | Linux|
+| WebVM3              | Webserver| 10.0.0.7   | Linux|               
+| ELK-Server          | Webserver| 10.1.0.4   | Linux|
 
 
 ### Access Policies

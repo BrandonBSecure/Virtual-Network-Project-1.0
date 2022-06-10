@@ -22,7 +22,7 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored the instance of DVWA(D*mn Vulnerable Web Application).
+The main purpose of this network is to expose a load-balanced and monitor the instance of DVWA(D*mn Vulnerable Web Application).
 
 Load balancing ensures that the application will be highly reliable, in addition to restricting unwanted traffic to the network.
 
@@ -55,7 +55,7 @@ Machines within the network can only be accessed by DVWA Docker Container.
 Machines allowed to access my ELK server.
 - Personal Machine 
 108.185.45.124   
-- Jummp-Box-Provioner 
+- Jump-Box-Provisioner 
 52.191.131.161  
 
 This was all made possible through Peering Connection Red-to- Elk and Elk-to-Red 

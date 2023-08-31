@@ -22,7 +22,7 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitor the instance of DVWA(D*mn Vulnerable Web Application).
+The main purpose of this network is to expose a load-balancer and monitor the instance of DVWA(D*mn Vulnerable Web Application).
 
 Load balancing ensures that the application will be highly reliable, in addition to restricting unwanted traffic to the network.
 
